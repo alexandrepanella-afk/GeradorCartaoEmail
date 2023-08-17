@@ -1,0 +1,44 @@
+#capture {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-input {
+  position: absolute;
+  font-size: 16px;
+  border: none;
+  padding: 5px;
+  width: 150px;
+}
+
+.overlay-input:nth-child(1) {
+  width: 70%;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'PF Handbook Pro', sans-serif;
+  color: darkgreen;
+  top: 10px;
+  left: 10px;
+}
+
+.overlay-input:nth-child(2) {
+  color: rgb(99, 145, 53);
+  font-family: 'PF Handbook Pro', sans-serif;
+  width: 40%;
+  top: 40px;
+  left: 10px;
+}
+
+.overlay-input:nth-child(3) {
+  color: darkgreen;
+  font-family: 'PF Handbook Pro', sans-serif;
+  top: 70px;
+  left: 10px;
+}
+
+.overlay-input:nth-child(4) {
+  color: darkgreen;
+  font-family: 'PF Handbook Pro', sans-serif;
+  top: 90px;
+  left: 10px;
+}
